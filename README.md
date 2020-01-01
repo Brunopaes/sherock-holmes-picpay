@@ -19,16 +19,17 @@ in your ___venv___ or ___anaconda env___, just run the following command:
 
 ```bash 
 .
-└── automatic-octo-template
+└── picpay-sherock_holmes
     ├── data
+    │   ├── datasource.csv
     │   └── settings.json
     ├── docs
-    │   ├── reference_articles
-    │   ├── ...
+    │   ├── instructions.pdf
+    │   ├── presentation.pdf
     │   └── CREDITS
     ├── src
     │   ├── __init__.py
-    │   └── bot.py
+    │   └── analysis.ipynb
     ├── tests
     │   └── unittests
     │       ├── data
