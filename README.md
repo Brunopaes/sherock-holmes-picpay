@@ -1,15 +1,18 @@
-## automatic-octo-template
+## Sherock Holmes: Picpay challenge
 
-Optimized for python 3.6
+Optimized for python 3.6+
 
-This is a project template. Used in other repositories.
+This is a Data Science challenge - purposed by Picpay. The main objective is 
+the construction of a statistical/computational model for predicting
+frauds. 
 
 ----------------------
 
 ### Dependencies
 
-For developers, python requirements could be find in the project's root. For installing the requirements, 
-in your ___venv___ or ___anaconda env___, just run the following command:
+For developers, python requirements could be find in the project's root. 
+For installing the requirements, in your ___venv___ or ___anaconda env___, 
+just run the following command:
 
 `pip install -r requirements.txt`
 
@@ -21,19 +24,16 @@ in your ___venv___ or ___anaconda env___, just run the following command:
 .
 └── picpay-sherock_holmes
     ├── data
-    │   ├── datasource.csv
-    │   └── settings.json
+    │   ├── img
+    │   └── datasource.csv
     ├── docs
+    │   ├── CREDITS
     │   ├── instructions.pdf
-    │   ├── presentation.pdf
-    │   └── CREDITS
+    │   ├── relatory_non_editable.pdf
+    │   └── relatory_editable.pdf
     ├── src
     │   ├── __init__.py
     │   └── analysis.ipynb
-    ├── tests
-    │   └── unittests
-    │       ├── data
-    │       └── __init__.py
     ├── .gitignore
     ├── LICENSE
     ├── README.md
@@ -45,41 +45,5 @@ in your ___venv___ or ___anaconda env___, just run the following command:
 - __data:__ The data dir. Group of non-script support files.
 - __docs:__ The documentation dir.
 - __src:__ The scripts & source code dir.
-- __tests:__ The unittests dir.
 
 -----------------------
-
-### Usage Notes
-
-#### Running
-
-For running it, on the `~/src` directory just run the follow command:
-
-`python automatic_octo.py` 
-
-#### Notes
-
-- Just a few notes
-
----------------
-
-### Versioning
-
-This project is under development.
-
-#### Roadmap
-
-__It needed to:__
-
-- Develop the feature #0
-    - feature #0.1:
-        - Techniques:
-            - technique #0
-            - technique #1
-            - technique #2
-    - feature #0.2:
-        - technology #0
-
-- Develop the feature #1
-
---------------
